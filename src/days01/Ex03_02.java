@@ -27,7 +27,7 @@ public class Ex03_02 {
 		int deptno;
 		String dname;
 		String loc;
-		ArrayList<DeptVO> list = null;
+		ArrayList<DeptVO> list = new ArrayList<DeptVO>();
 		
 //		1.드라이버
 		try {
@@ -87,6 +87,7 @@ public class Ex03_02 {
 
 	}//main
 
+	
 	private static void dispDept(ArrayList<DeptVO> list) {
 		
 		Iterator<DeptVO> ir = list.iterator();
@@ -97,5 +98,5 @@ public class Ex03_02 {
 		}
 		
 	}
-
+ //test
 }//class
