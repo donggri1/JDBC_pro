@@ -12,7 +12,7 @@ public class Ex04 {
 //		FROM emp
 //		WHERE deptno = 40;
 		
-		
+		test
 
 	}
 
